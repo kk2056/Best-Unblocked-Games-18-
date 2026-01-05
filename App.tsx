@@ -97,7 +97,55 @@ const App: React.FC = () => {
         ) : (
           <div className="mt-4 animate-in slide-in-from-bottom duration-500">
             {selectedGame && (
-              <GameFrame game={selectedGame} onBack={handleGoHome} />
+              <>
+                <GameFrame game={selectedGame} onBack={handleGoHome} />
+                
+                {/* 1. Strategy Text below GamePlayer (GameFrame) */}
+                <div className="strategy mt-8 text-gray-300 p-6 bg-slate-800 rounded-lg border border-slate-700 shadow-xl max-w-6xl mx-auto">
+                  <h3 className="text-xl font-bold text-white mb-3 uppercase tracking-wider italic">Pro Strategy Guide</h3>
+                  <p className="leading-relaxed">
+                    The world is your playground. Subway Surfers World Unblocked 2025 focuses on the "World Tour" editions of the game. 
+                    While the core gameplay remains, this site rotates through different city maps. From the subways of New York to the 
+                    streets of Tokyo or Rio, enjoy dodging the inspector in new environments.
+                  </p>
+                  <p className="mt-4 leading-relaxed">
+                    Variant Features: This site often unlocks special event characters and hoverboards. The different maps aren't just 
+                    visual swaps; obstacle layouts change, keeping the game fresh. Powered by 2025 web tech, scene transitions are 
+                    smooth and colorful. If you are bored of the standard track, this is the best place to travel the world from 
+                    your school desk.
+                  </p>
+                </div>
+
+                {/* 2. Inner Links below Strategy */}
+                <div className="other-games mt-8 bg-slate-950 p-6 rounded-lg shadow-2xl border border-slate-800 max-w-6xl mx-auto">
+                  <h3 className="text-xl font-bold text-white mb-4 border-b border-slate-700 pb-2 flex items-center gap-2">
+                    <span className="w-2 h-6 bg-indigo-500 inline-block"></span>
+                    More Unblocked Games 2025
+                  </h3>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 list-none">
+                    <li className="mb-1"><a href="https://snakegame.cfd" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Snake Game Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://playzero2025.sbs" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Zero Lag Games Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://freegames2025.sbs" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Free Games Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://nodownload2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play No Download Games Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://unblocked2025.cfd" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Unblocked Games 2025 (Main)</a></li>
+                    <li className="mb-1"><a href="https://unblocked2025.sbs" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Best Unblocked Games 2025</a></li>
+                    <li className="mb-1"><a href="https://promax.it.com" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play ProMax Games Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://retrobowl2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Retro Bowl Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://1v1lol2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play 1v1.LOL Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://drift2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Drift Hunters Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://slope2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Slope Game Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://gd2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Geometry Dash Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://motox3m2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Moto X3M Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://surfers2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Subway Surfers Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://run32025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Run 3 Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://fireboy2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Fireboy & Watergirl Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://paperio2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Paper.io Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://driftbest2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Drift Hunters MAX Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://gd-full2025.site" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Geometry Dash Full Unblocked 2025</a></li>
+                    <li className="mb-1"><a href="https://subway2025.online" className="text-blue-400 hover:text-indigo-300 transition-colors duration-200 font-medium">Play Subway Surfers World Unblocked 2025</a></li>
+                  </ul>
+                </div>
+              </>
             )}
           </div>
         )}
